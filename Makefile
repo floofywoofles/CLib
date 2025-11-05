@@ -7,4 +7,4 @@ dirs:
 	mkdir -p bin
 
 build:
-	$(CC) $(CFLAGS) -I ./include ./src/*.c -o bin/a.out
+	$(CC) $(CFLAGS) -g ./src/*.c -o bin/a.out
